@@ -98,7 +98,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
         // Click Action -> Go to Terminal Site
         nameHeading.addEventListener('click', () => {
-            window.location.href = 'https://karant.dev';
+            window.location.href = 'https://ssh.karant.dev';
         });
 
         // Add blink animation style
