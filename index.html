@@ -49,8 +49,6 @@
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#posts">Posts</a></li>
                 <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li> -->
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://blog.karant.dev"
-                        target="_blank">Blog</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://karant.dev/resume">Resume</a>
                 </li>
             </ul>
@@ -317,7 +315,7 @@
                 const posts = [];
                 
                 items.forEach((item, index) => {
-                    if (index >= 3) return;
+                    if (index >= 5) return;
                     
                     const title = item.querySelector('title')?.textContent || 'Untitled';
                     const link = item.querySelector('link')?.textContent || '#';
@@ -351,7 +349,7 @@
                             </div>
                         </div>
                     </div>
-                `).join('');
+                `).join('') + '<div class="col-12 mt-2"><a href="https://blog.karant.dev" target="_blank" rel="noopener noreferrer" class="text-decoration-none">View all posts &rarr;</a></div>';
                 
             } catch (error) {
                 console.error('Error loading blog posts:', error);
