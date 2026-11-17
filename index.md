@@ -12,19 +12,21 @@ links:
     url: "https://github.com/karant-dev"
   - label: Blog
     url: "https://blog.karant.dev"
+  - label: Now
+    url: "/now"
   - label: Email
     url: "mailto:hello@karant.dev"
 ---
 
 # Karan Thakkar
 
-Husband, cat dad, engineer.
+Husband, cat dad to Coffee, engineer.
 
 ## About me
 
 I secure cloud infrastructure, developer endpoints, AI agents, and software supply chains at Edwards Lifesciences. I hold an MS in Computer Science from UT Arlington and write about security on my [blog](https://blog.karant.dev).
 
-I’ve lived across three continents and love building things. Off the clock, I’m usually tinkering with my homelab, mini PCs, Raspberry Pis, ambient tech like the TRMNL e-ink display and Pebble Index 01, or improving my custom Telegram personal agent. Next on my list is learning woodworking.
+I’ve lived across three continents and love building things. Off the clock, I’m usually tinkering with my homelab, hacking ambient tech like the TRMNL and Pebble Index 01 and some Alexa Echoes, or improving my personal Telegram agent. Next on my list is learning woodworking.
 
 ## Work
 
