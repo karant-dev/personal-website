@@ -1,0 +1,12 @@
+#!/bin/sh
+set -e
+
+# Rebuild site to ensure HTML and sitemap.xml match Markdown sources
+echo "Pre-commit: building site with 'make'..."
+make
+
+# Stage all generated HTML files and sitemap.xml
+git add index.html sitemap.xml 2>/dev/null || true
+if [ -d p ]; then
+  git add p/*.html 2>/dev/null || true
+fi

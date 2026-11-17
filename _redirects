@@ -1,0 +1,10 @@
+/github       https://github.com/karant-dev               302
+/linkedin     https://www.linkedin.com/in/karan-thakkar97 302
+/blog         https://blog.karant.dev                     302
+/resume       /files/resume.pdf                           302
+/now          /p/now.html                                 200
+/work         /p/work.html                                200
+
+# Block README.md from being served as a page
+/README.md    /404.html                                   404
+/CLAUDE.md    /404.html                                   404
