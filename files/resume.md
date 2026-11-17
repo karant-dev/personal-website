@@ -11,7 +11,7 @@
 Cloud and Developer Security Engineer with 6+ years across Security, DevSecOps and automation, including regulated medtech. Set cloud, endpoint, SDLC, and AI-agent security standards across engineering teams at enterprise scale. AWS Certified Security – Specialty.
 
 # Experience
-## **Senior Security Analyst – Cloud & Enterprise Security**, Edwards Lifesciences -- Ireland
+## **Senior Security Analyst – Enterprise Security**, Edwards Lifesciences -- Ireland
 
 Mar 2025 – present
 
