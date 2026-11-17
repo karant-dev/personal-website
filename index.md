@@ -4,20 +4,23 @@ description: "Cloud Security and DevSecOps · Ireland"
 image: files/headshot.jpg
 home: true
 links:
-  - label: Resume
+  - label: /Resume
     url: "/files/resume.pdf"
   - label: /Work
     url: "/work"
   - label: Blog
     url: "https://blog.karant.dev"
+    target: "_blank"
   - label: /Now
     url: "/now"
   - label: Email
     url: "mailto:hello@karant.dev"
   - label: LinkedIn
     url: "https://www.linkedin.com/in/karan-thakkar97"
+    target: "_blank"
   - label: GitHub
     url: "https://github.com/karant-dev"
+    target: "_blank"
 ---
 
 # Karan Thakkar

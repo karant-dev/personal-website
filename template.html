@@ -100,7 +100,7 @@ $body$
 $if(links)$
 <nav class="links">
 $for(links)$
-<a href="$links.url$" target="_blank" rel="noopener">$links.label$</a>
+<a href="$links.url$"$if(links.target)$ target="$links.target$" rel="noopener"$elseif(links.newtab)$ target="_blank" rel="noopener"$endif$>$links.label$</a>
 $endfor$
 </nav>
 $endif$
