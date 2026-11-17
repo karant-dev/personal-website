@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>$pagetitle$</title>
+$if(description)$
+<meta name="description" content="$description$">
+$endif$
+$if(canonical)$
+<link rel="canonical" href="$canonical$">
+$endif$
+$if(mdpath)$
+<link rel="alternate" type="text/markdown" href="$mdpath$" title="Markdown source">
+$endif$
+$if(site-name)$
+<meta property="og:site_name" content="$site-name$">
+$endif$
+<meta property="og:title" content="$pagetitle$">
+$if(description)$
+<meta property="og:description" content="$description$">
+$endif$
+$if(canonical)$
+<meta property="og:url" content="$canonical$">
+$endif$
+$if(home)$
+<meta property="og:type" content="profile">
+$else$
+<meta property="og:type" content="article">
+$endif$
+$if(image)$
+<meta property="og:image" content="$site$/$image$">
+$elseif(social-image)$
+<meta property="og:image" content="$site$/$social-image$">
+$endif$
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="$pagetitle$">
+$if(description)$
+<meta name="twitter:description" content="$description$">
+$endif$
+$if(image)$
+<meta name="twitter:image" content="$site$/$image$">
+$elseif(social-image)$
+<meta name="twitter:image" content="$site$/$social-image$">
+$endif$
+$if(home)$
+$if(person)$
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "$person.name$",
+  "url": "$site$/",
+$if(social-image)$
+  "image": "$site$/$social-image$",
+$endif$
+$if(person.job-title)$
+  "jobTitle": "$person.job-title$",
+$endif$
+$if(person.employer)$
+  "worksFor": {
+    "@type": "Organization",
+    "name": "$person.employer$"$if(person.employer-url)$,
+    "url": "$person.employer-url$"$endif$
+  },
+$endif$
+$if(person.knows-about)$
+  "knowsAbout": [$for(person.knows-about)$
+    "$person.knows-about$"$sep$,$endfor$
+  ],
+$endif$
+  "sameAs": [$for(person.same-as)$
+    "$person.same-as$"$sep$,$endfor$
+  ]
+}
+</script>
+$endif$
+$endif$
+<link rel="icon" href="/favicon.ico">
+$for(css)$
+<link rel="stylesheet" href="$css$">
+$endfor$
+$for(header-includes)$
+$header-includes$
+$endfor$
+$if(goatcounter)$
+<script data-goatcounter="https://$goatcounter$.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+$endif$
+</head>
+<body$if(home)$ class="home"$endif$>
+<main>
+$if(image)$
+<img class="portrait" src="$image$" alt="$if(title)$$title$$else$$pagetitle$$endif$">
+$endif$
+$if(title)$
+<h1 class="title">$title$</h1>
+$endif$
+$body$
+$if(links)$
+<nav class="links">
+$for(links)$
+<a href="$links.url$" target="_blank" rel="noopener">$links.label$</a>
+$endfor$
+</nav>
+$endif$
+</main>
+</body>
+</html>

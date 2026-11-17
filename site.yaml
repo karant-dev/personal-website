@@ -1,0 +1,34 @@
+# Site-wide settings. Passed to pandoc on every build, so every page can use them.
+# Page frontmatter overrides anything set here.
+
+# Your production URL, no trailing slash. Used for canonical links, og:url, and sitemap.xml.
+url: https://karant.dev
+
+# Shown in og:site_name and in the JSON-LD block on the homepage.
+site-name: Karan Thakkar
+
+# Optional. Image used for link previews (og:image, twitter:image) on pages that don't set their own `image`.
+# Path is relative to the site root. Use a JPG or PNG, ideally 1200x630 or square.
+social-image: files/headshot.jpg
+
+# Optional. Your GoatCounter code (the part before .goatcounter.com). Delete the line for no analytics.
+# goatcounter: your-code
+
+# Optional. Structured data for search engines, emitted on the page with `home: true`.
+# Values are pasted into JSON as-is, so avoid double quotes inside them. 
+person:
+  name: Karan Thakkar
+  job-title: Cloud, Enterprise, and Developer Security Engineer
+  same-as:
+    - https://github.com/karant-dev
+    - https://www.linkedin.com/in/karan-thakkar97
+    - https://blog.karant.dev
+  employer: Edwards Lifesciences
+  employer-url: https://www.edwards.com
+  knows-about:
+    - Cloud Security
+    - Enterprise Security
+    - Developer Endpoint Security
+    - Software Supply Chain Security
+    - DevSecOps
+    - Secure CI/CD
