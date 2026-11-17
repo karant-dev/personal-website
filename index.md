@@ -21,6 +21,9 @@ links:
   - label: GitHub
     url: "https://github.com/karant-dev"
     target: "_blank"
+  - label: SSH
+    url: "https://ssh.karant.dev"
+    target: "_blank"
 ---
 
 # Karan Thakkar
