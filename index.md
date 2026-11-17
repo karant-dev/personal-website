@@ -1,31 +1,33 @@
 ---
 pagetitle: Karan Thakkar
-description: "Cloud, enterprise, and developer security engineer · Ireland"
+description: "Cloud Security and DevSecOps · Ireland"
 image: files/headshot.jpg
 home: true
-# Optional button links at the bottom:
-# links:
-#   - label: Resume
-#     url: "https://karant.dev/resume"
-#   - label: LinkedIn
-#     url: "https://www.linkedin.com/in/karan-thakkar97"
-#   - label: GitHub
-#     url: "https://github.com/karant-dev"
-#   - label: Blog
-#     url: "https://blog.karant.dev"
-#   - label: Email
-#     url: "mailto:hello@karant.dev"
+links:
+  - label: Resume
+    url: "https://karant.dev/resume"
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/karan-thakkar97"
+  - label: GitHub
+    url: "https://github.com/karant-dev"
+  - label: Blog
+    url: "https://blog.karant.dev"
+  - label: Email
+    url: "mailto:hello@karant.dev"
 ---
 
 # Karan Thakkar
-Cloud, enterprise, and developer security engineer · Ireland
 
-[Resume](https://karant.dev/resume) · [LinkedIn](https://www.linkedin.com/in/karan-thakkar97) · [GitHub](https://github.com/karant-dev) · [Blog](https://blog.karant.dev) · [Email](mailto:hello@karant.dev)
+Husband, cat dad, engineer.
 
-I work on cloud security, developer endpoint and software supply chain security, and secure CI/CD in regulated healthcare. I write about it on the blog.
+## About me
 
-## Experience
+I secure cloud infrastructure, developer endpoints, AI agents, and software supply chains at Edwards Lifesciences. I hold an MS in Computer Science from UT Arlington and write about security on my [blog](https://blog.karant.dev).
 
-- **Edwards Lifesciences**, Senior Engineer – Cloud & Enterprise Security (2025–present): cloud, endpoint, and software supply chain security
-- **Edwards Lifesciences**, Senior Engineer (2022–2024): CI/CD, cloud architecture, and data platforms in GxP healthcare
-- **Earlier:** test automation and CI at Zeus Systems; software engineering intern at Win10 Technologies
+I’ve lived across three continents and love building things. Off the clock, I’m usually tinkering with my homelab, mini PCs, Raspberry Pis, ambient tech like the TRMNL e-ink display and Pebble Index 01, or improving my custom Telegram personal agent. Next on my list is learning woodworking.
+
+## Work
+
+- **(Now) Senior Security Analyst**, Edwards Lifesciences – Cloud & Enterprise Security (2025–present): cloud, AI, endpoint, and software supply chain security. shift-left security transformation
+- **(Prev.) Senior DevOps Engineer**, Edwards Lifesciences (2022–2024): CI/CD, cloud architecture, and data platforms in GxP healthcare
+- **(Earlier):** test automation and CI at Zeus Systems; software engineering intern at Win10 Technologies
