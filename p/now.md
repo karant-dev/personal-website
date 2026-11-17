@@ -21,7 +21,7 @@ _Last updated: November 2026, from Ireland._
 ## Learning
 
 - **Woodworking:** Researching fundamental hand tools and basic joinery; planning my first small project (a hardwood monitor riser or desk shelf).
-- **Writing:** Documenting security lessons and tech experiments on my [blog](https://blog.karant.dev).
+- **Writing:** Writing about [big ideas – and other problems](https://www.theverge.com/decoder-podcast-with-nilay-patel#:~:text=big%20ideas%20–%20and%20other%20problems) on my [blog](https://blog.karant.dev).
 
 ## Life
 
