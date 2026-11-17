@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>$pagetitle$</title>
+<title>$if(home)$$pagetitle$$else$$if(title-prefix)$$title-prefix$$else$Karan$endif$ – $pagetitle$$endif$</title>
 $if(description)$
 <meta name="description" content="$description$">
 $endif$
@@ -16,7 +16,7 @@ $endif$
 $if(site-name)$
 <meta property="og:site_name" content="$site-name$">
 $endif$
-<meta property="og:title" content="$pagetitle$">
+<meta property="og:title" content="$if(home)$$pagetitle$$else$$if(title-prefix)$$title-prefix$$else$Karan$endif$ – $pagetitle$$endif$">
 $if(description)$
 <meta property="og:description" content="$description$">
 $endif$
@@ -34,7 +34,7 @@ $elseif(social-image)$
 <meta property="og:image" content="$site$/$social-image$">
 $endif$
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="$pagetitle$">
+<meta name="twitter:title" content="$if(home)$$pagetitle$$else$$if(title-prefix)$$title-prefix$$else$Karan$endif$ – $pagetitle$$endif$">
 $if(description)$
 <meta name="twitter:description" content="$description$">
 $endif$

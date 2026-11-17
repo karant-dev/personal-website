@@ -7,6 +7,9 @@ url: https://karant.dev
 # Shown in og:site_name and in the JSON-LD block on the homepage.
 site-name: Karan Thakkar
 
+# Prefix used for subpage titles (<title-prefix> – <Page Title>)
+title-prefix: Karan
+
 # Optional. Image used for link previews (og:image, twitter:image) on pages that don't set their own `image`.
 # Path is relative to the site root. Use a JPG or PNG, ideally 1200x630 or square.
 social-image: files/headshot.jpg
