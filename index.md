@@ -1,9 +1,8 @@
 ---
 pagetitle: Karan Thakkar
 description: "Cloud, enterprise, and developer security engineer · Ireland"
+image: files/headshot.jpg
 home: true
-# Uncomment to show a circular portrait above the title:
-# image: files/headshot.jpg
 # Optional button links at the bottom:
 # links:
 #   - label: Resume
