@@ -6,16 +6,18 @@ home: true
 links:
   - label: Resume
     url: "https://karant.dev/resume"
+  - label: /Work
+    url: "https://karant.dev/work"
+  - label: Blog
+    url: "https://blog.karant.dev"
+  - label: /Now
+    url: "https://karant.dev/now"
+  - label: Email
+    url: "mailto:hello@karant.dev"
   - label: LinkedIn
     url: "https://www.linkedin.com/in/karan-thakkar97"
   - label: GitHub
     url: "https://github.com/karant-dev"
-  - label: Blog
-    url: "https://blog.karant.dev"
-  - label: Now
-    url: "/now"
-  - label: Email
-    url: "mailto:hello@karant.dev"
 ---
 
 # Karan Thakkar
@@ -24,12 +26,6 @@ Husband, cat dad to Coffee, engineer.
 
 ## About me
 
-I secure cloud infrastructure, developer endpoints, AI agents, and software supply chains at Edwards Lifesciences. I hold an MS in Computer Science from UT Arlington and write about security on my [blog](https://blog.karant.dev).
+I secure cloud infrastructure, developer endpoints, AI agents, and software supply chains at Edwards Lifesciences. I hold an MS in Computer Science from UT Arlington and write about [big ideas – and other problems](https://www.theverge.com/decoder-podcast-with-nilay-patel#:~:text=big%20ideas%20–%20and%20other%20problems) on my [blog](https://blog.karant.dev).
 
-I’ve lived across three continents and love building things. Off the clock, I’m usually tinkering with my homelab, hacking ambient tech like the TRMNL and Pebble Index 01 and some Alexa Echoes, or improving my personal Telegram agent. Next on my list is learning woodworking.
-
-## Work
-
-- **(Now) Senior Security Analyst**, Edwards Lifesciences – Cloud & Enterprise Security (2025–present): cloud, AI, endpoint, and software supply chain security. shift-left security transformation
-- **(Prev.) Senior DevOps Engineer**, Edwards Lifesciences (2022–2024): CI/CD, cloud architecture, and data platforms in GxP healthcare
-- **(Earlier):** test automation and CI at Zeus Systems; software engineering intern at Win10 Technologies
+Lived across three continents and love building things. Off the clock, you'll find me tinkering with my [homelab](https://github.com/karant-dev/homelab), hacking ambient tech like my [TRMNL](https://shop.trmnl.com/products/trmnl-x), Pebble [Index 01](https://repebble.com/index) and some Alexa Echoes, or improving my personal Telegram agent. Next on my list is learning woodworking.

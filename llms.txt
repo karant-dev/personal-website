@@ -1,0 +1,15 @@
+# Karan Thakkar
+
+> Cloud, Enterprise, and Developer Security Engineer with 6+ years across DevOps, DevSecOps, and regulated healthcare (GxP, 21 CFR Part 11).
+
+## Resume & Background
+
+- [Resume (Markdown)](https://karant.dev/files/resume.md): Full plain text Markdown CV detailing professional experience, enterprise security projects, certifications, and skills.
+- [Resume (PDF)](https://karant.dev/files/resume.pdf): Printable PDF version.
+- [About Me](https://karant.dev/): Personal homepage.
+
+## Profiles & Projects
+
+- [GitHub](https://github.com/karant-dev): Open-source projects (AutoRedact, STIG Yocto meta layer, Seq2Seq).
+- [LinkedIn](https://www.linkedin.com/in/karan-thakkar97): Professional network and profile.
+- [Blog](https://blog.karant.dev): Technical and personal blog.
