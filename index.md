@@ -26,7 +26,7 @@ Husband, cat dad to Coffee, engineer.
 
 <details>
   <summary style="cursor: pointer; color: var(--accent); font-size: 0.85rem; list-style-position: inside;">(cat tax)</summary>
-  <img src="/files/coffee.svg" alt="Coffee the cat" style="max-width: 240px; border-radius: 12px; margin: 0.75rem auto 1rem; display: block;" />
+  <img src="/files/coffee.jpg" alt="Coffee the cat" style="max-width: 240px; border-radius: 12px; margin: 0.75rem auto 1rem; display: block;" />
 </details>
 
 I secure cloud infrastructure, developer endpoints, AI agents, and software supply chains at Edwards Lifesciences. I hold an MS in Computer Science from UT Arlington and write about [big ideas – and other problems](https://www.theverge.com/decoder-podcast-with-nilay-patel#:~:text=big%20ideas%20–%20and%20other%20problems) on my [blog](https://blog.karant.dev).
