@@ -5,7 +5,7 @@ image: files/headshot.jpg
 home: true
 links:
   - label: Resume
-    url: "https://karant.dev/resume"
+    url: "/files/resume.pdf"
   - label: /Work
     url: "/work"
   - label: Blog
@@ -25,7 +25,7 @@ links:
 Husband, cat dad to Coffee, engineer.
 
 <details>
-  <summary style="cursor: pointer; color: var(--accent); font-size: 0.85rem; list-style-position: inside;">(cat tax 🐾)</summary>
+  <summary style="cursor: pointer; color: var(--accent); font-size: 0.85rem; list-style-position: inside;">(cat tax)</summary>
   <img src="/files/coffee.svg" alt="Coffee the cat" style="max-width: 240px; border-radius: 12px; margin: 0.75rem auto 1rem; display: block;" />
 </details>
 

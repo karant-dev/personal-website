@@ -3,7 +3,7 @@ title: Work
 description: "Work experience and career history — Karan Thakkar"
 ---
 
-A summary of my professional experience in cloud security, DevSecOps, and software engineering. You can also view my [Resume](https://karant.dev/resume) or connect on [LinkedIn](https://www.linkedin.com/in/karan-thakkar97).
+A summary of my professional experience in cloud security, DevSecOps, and software engineering. You can also view my [Resume](/files/resume.pdf) or connect on [LinkedIn](https://www.linkedin.com/in/karan-thakkar97).
 
 ## Edwards Lifesciences
 
