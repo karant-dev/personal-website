@@ -7,11 +7,11 @@ links:
   - label: Resume
     url: "https://karant.dev/resume"
   - label: /Work
-    url: "https://karant.dev/work"
+    url: "/work"
   - label: Blog
     url: "https://blog.karant.dev"
   - label: /Now
-    url: "https://karant.dev/now"
+    url: "/now"
   - label: Email
     url: "mailto:hello@karant.dev"
   - label: LinkedIn
